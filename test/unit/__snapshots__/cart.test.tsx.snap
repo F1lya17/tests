@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Корзина для каждого товара должны отображаться название, цена, количество , стоимость, а также должна отображаться общая сумма заказа 1`] = `
+[
+  <tr
+    data-testid="777"
+    role="product"
+  >
+    <th
+      class="Cart-Index"
+      scope="row"
+    >
+      1
+    </th>
+    <td
+      class="Cart-Name"
+    >
+      Anton
+    </td>
+    <td
+      class="Cart-Price"
+    >
+      $
+      100
+    </td>
+    <td
+      class="Cart-Count"
+    >
+      2
+    </td>
+    <td
+      class="Cart-Total"
+    >
+      $
+      200
+    </td>
+  </tr>,
+]
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Каталог для каждого товара в каталоге отображается название, цена и ссылка на страницу с подробной информацией о товаре 1`] = `
+[
+  <div
+    class="ProductItem card w-100 mb-4"
+    data-testid="777"
+    role="card"
+  >
+    <img
+      class="Image card-img-top"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+    />
+    <div
+      class="card-body"
+    >
+      <h5
+        class="ProductItem-Name card-title"
+      >
+        Anton
+      </h5>
+      <p
+        class="ProductItem-Price card-text"
+      >
+        $
+        100
+      </p>
+      <a
+        class="ProductItem-DetailsLink card-link"
+        data-testid="link"
+        href="/catalog/777"
+      >
+        Details
+      </a>
+    </div>
+  </div>,
+]
+`;
